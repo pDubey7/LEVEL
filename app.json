@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "LevelLabs",
+    "slug": "levellabs",
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "scheme": "levellabs",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "backgroundColor": "#0A0A0A",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A0A",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.levellabs.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "LevelLabs uses the camera to scan member QR codes",
+        "NSMotionUsageDescription": "LevelLabs tracks your steps to monitor fitness activity",
+        "LSApplicationQueriesSchemes": ["phantom", "backpack"]
+      }
+    },
+    "android": {
+      "package": "com.levellabs.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#7900BF"
+      }
+    },
+    "plugins": [
+      "expo-dev-client",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A0A0A"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id"
+      }
+    }
+  }
+}

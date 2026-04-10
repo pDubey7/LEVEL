@@ -1,0 +1,44 @@
+{
+  "name": "levellabs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/dm-sans": "^0.2.3",
+    "@expo-google-fonts/syne": "^0.2.3",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@solana/pay": "^0.2.0",
+    "@solana/web3.js": "^1.91.0",
+    "@supabase/supabase-js": "^2.39.3",
+    "@tanstack/react-query": "^5.17.0",
+    "expo": "~50.0.14",
+    "expo-dev-client": "~3.3.0",
+    "expo-font": "~11.10.3",
+    "expo-splash-screen": "~0.26.4",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-razorpay": "^2.2.0",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "~0.73.0",
+    "babel-plugin-module-resolver": "^5.0.3",
+    "babel-preset-expo": "~10.0.0",
+    "typescript": "~5.3.3"
+  }
+}
